@@ -520,8 +520,8 @@ elif st.session_state["etapa"] == 3:
 
     st.caption("Redirecionando para um novo cadastro...")
 
-    # Aguarda 3 segundos exibindo a mensagem centralizada
-    time.sleep(3)
+    # Aguarda 5 segundos exibindo a mensagem centralizada
+    time.sleep(8)
 
     # Limpa todos os campos e volta para a Tela 1
     resetar_formulario()
